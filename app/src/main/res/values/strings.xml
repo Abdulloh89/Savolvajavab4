@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Islomdan Savol va Javob</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    
+    <!-- START Menu resourses -->
+    
+    <string name="menu_start">Старт</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Exit</string>
+    
+    <!-- END Menu resourses -->
+    <string name="splash_description">Splash Image</string>
+    
+    <!-- START Game dialog -->
+    <string name="end">O`yin yakunlandi!</string>
+    <string name="epicwin">Siz g`olib bo`ldingiz. Yana bir bor o`zingizni boshqa savollarda sinab ko`ring.</string>
+    <string name="epicfail">Eng yaxshi ibodat ilm olmoqlikdir. (Hadis)</string>
+    <string name="lost1to1">Iim o`rganish har bir muslmon uchun farzdir. (Hadis)</string>
+    <string name="lost2to2">Bir soatgina ilm o`rganish, bir kechalik ibodatdan yaxshidir. (Hadis)</string>
+    <string name="lost3to3">Qaysidir bir olimning ilmidan so`ralganda gapirib bermasa, qiyomatda og`ziga o`tdan tizgin solib qo`yiladi. (Hadis)</string>
+    <string name="lost4to4">Avvalo olim bo`l! Loaqal ta`lim oluvchi yoki tinglovchi, ilmu ulamolarni sevuvchi bo`lgin. (Hadis)</string>
+    <string name="lost5to5">Bilim-qaytarish va takrorlash mevasidir. (Abu Rayxon Beruniy)</string>
+    <string name="lost6to6">Ey inson farzandi, sen ilmli va adabli bo‘l. Ilm va adab senga mushfiq otangdek bo‘lsin. (Mahmud az-Zamaxshariy)</string>
+    <string name="lost7to7">Hamma narsaning bir yo‘li bor. Jannatga yo‘l ilm olish bilan egallanadi. (Hadis)</string>
+    <string name="lost8to8">Ey odamlar, bilim unga intilish natijasida erishiladi. (Tabaroniy)</string>
+    <string name="lost9to9">Kimkiy ilm izlab uyidan chiqsa, unga Alloh Jannat yo`lini yengillashtirib qoyadi. (Muslim, Hakim, Tirmizhi va boshq.)</string>
+    <string name="lost10to10">Beshikdan qabrgacha bilim ista.(Hadis)</string>
+    <string name="lost11to11">Agar ilm izlovchi ilm istab o`limni topsa, u shahid maqomida o`ladi. (Tabaroniy, Bazzar)</string>
+    <string name="lost12to12">Bilim, barcha nuqsonlarni yashiradi, jaholat barchasini oshkor qiladi. (Daylamiy)</string>
+    <string name="lost13to13">Ilm olish imkoniyatiga ega bo`la turib, ilm olmagan inson, Qiyomat kunida eng ko`p afsus chekadigan insondir. (Ibn Asakir)</string>
+    <string name="lost14to14">Sadaqaning avzali musulmon kishining ilm o`rganib, so`ng boshqa musulmon birodarlariga ham o`rgatishidir. (Hadis)</string>
+    <string name="lost15to15">Beshikdan qabrgacha bilim ista.(Hadis)</string>
+    <string name="congratz"></string>
+    <string name="condolence"></string>
+      <string name="ok">Boshiga qaytish</string>
+    <!-- END Game dialog -->
+
+
+</resources>

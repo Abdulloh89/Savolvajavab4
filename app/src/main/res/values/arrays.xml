@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="musicSet">
+        <item name="1">Standart</item>
+        <item name="2">Origin</item>
+    </string-array>
+    
+       <string-array name="musicSetValues">
+		<item name="1">1</item>
+		<item name="2">2</item>
+	</string-array>
+    
+</resources>

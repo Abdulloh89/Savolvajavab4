@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#009900"    >
+    <PreferenceCategory
+        android:key="sound_settings"
+        android:title="Tovush sozlamasi">
+
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefEnableEffect"
+        android:title="Effekt tovushi">
+
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefEnableMusic"
+        android:title="Ovoz tovushi">
+
+    </CheckBoxPreference>
+    <EditTextPreference
+        android:defaultValue="true"
+        android:key="edit_text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Dastur ver.:15-8.5   03/08/18" />
+
+
+</PreferenceScreen>

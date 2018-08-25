@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/fon9"
+		android:cropToPadding="false" />
+
+    <com.Islomdan.savolvajavab.fontpackage.MyButtonFont
+        android:id="@+id/playThematicGameButton"
+        style="@style/button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/chooseTopicLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/start"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <com.Islomdan.savolvajavab.fontpackage.MyButtonFont
+        android:id="@+id/menuExitBtn"
+        style="@style/button"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+		android:background="@drawable/chiqish"
+        android:textColor="#fff"
+        android:textSize="24sp"
+		android:layout_below="@+id/playThematicGameButton"
+		android:layout_alignRight="@+id/chooseTopicTextView"
+		android:layout_alignEnd="@+id/chooseTopicTextView"
+		android:layout_marginTop="33dp" />
+
+	<com.Islomdan.savolvajavab.fontpackage.MyButtonFont
+		android:id="@+id/menuSettingsBtn"
+		style="@style/button"
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		android:layout_alignLeft="@+id/chooseTopicTextView"
+		android:layout_alignStart="@+id/chooseTopicTextView"
+		android:layout_alignTop="@+id/menuExitBtn"
+		android:layout_marginLeft="0dp"
+		android:layout_marginStart="65dp"
+		android:background="@drawable/sozlama2"
+		android:padding="100dp"
+		android:paddingBottom="100dp"
+		android:paddingEnd="100dp"
+		android:paddingLeft="100dp"
+		android:paddingRight="10dp"
+		android:paddingStart="100dp"
+		android:textColor="#fff"
+		android:textSize="24sp" />
+
+	<com.Islomdan.savolvajavab.fontpackage.MyTextViewFont
+		android:id="@+id/chooseTopicTextView"
+		style="@style/button"
+		android:layout_width="300dp"
+		android:layout_height="300dp"
+		android:layout_marginTop="99dp"
+		android:background="@drawable/det"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#fff"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+
+
+	<RelativeLayout
+		android:id="@+id/chooseTopicLayout"
+		android:layout_width="wrap_content"
+		android:layout_height="70dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/chooseTopicTextView"
+		android:orientation="horizontal">
+
+		<com.Islomdan.savolvajavab.fontpackage.MyTextViewFont
+			android:id="@+id/topicTextView"
+			style="@style/button"
+			android:layout_width="300dp"
+			android:layout_height="200dp"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:background="@drawable/kirillatin"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#fff"
+			android:textSize="36sp" />
+
+		<Button
+			android:id="@+id/leftArrow"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginLeft="50dp"
+			android:background="@drawable/arrow_left" />
+
+		<Button
+			android:id="@+id/rightArrow"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginLeft="0dp"
+			android:layout_marginRight="50dp"
+			android:background="@drawable/arrow_right" />
+
+	</RelativeLayout>
+
+
+</RelativeLayout>
